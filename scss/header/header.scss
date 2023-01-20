@@ -1,0 +1,55 @@
+.header {
+    width: 1920px;
+    height: 110px;
+    background-color: #FFFAF7;
+    text-decoration: none;
+
+    &__logotype {
+        font-size: 36px;
+        color: #005FA3;
+        float: left;
+        font-family: 'Merriweather';
+        margin-top: 20px;
+
+        &_logo {
+            margin-right: 30px;   
+        }
+    }
+
+    &__menu {
+        float: right;
+        line-height: 45px;
+    }
+}
+
+
+
+.header__address {
+    float: right;
+    font-style: regular;
+
+    ul li {
+        float: left;
+        margin-right: 55px; 
+    }
+}
+.header__nav {
+    float: right;
+    text-transform: uppercase;
+
+    ul li {
+        float: left;
+        margin-right: 70px;
+    }
+}
+ul {
+    list-style: none;
+}
+
+.header__address ul li:last-of-type {
+    margin-right: 0;
+}
+
+.header__nav ul li:last-of-type {
+    margin-right: 0;
+}
